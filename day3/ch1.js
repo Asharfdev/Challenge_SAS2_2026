@@ -1,1 +1,16 @@
+// const numbers = [10, 20, 30];
+// function  displayNumbers(){
+//      for (let i = 0 ; i < numbers.length ; i++ ){
 
+//              console.log(numbers[i]);
+//     }
+// }
+// displayNumbers();
+
+function displayNumbers(tab) {
+    for (let i = 0; i < tab.length; i++) {
+        console.log(tab[i]);
+    
+    }
+    
+} displayNumbers([10,20,30]);
