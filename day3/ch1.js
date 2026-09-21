@@ -6,11 +6,3 @@
 //     }
 // }
 // displayNumbers();
-
-function displayNumbers(tab) {
-    for (let i = 0; i < tab.length; i++) {
-        console.log(tab[i]);
-    
-    }
-    
-} displayNumbers([10,20,30]);
